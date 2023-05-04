@@ -23,6 +23,7 @@ router.get('/dashboard', async (req, res, next) => {
         agendamentos: agendamentos,
         pedidos: pedidos
     }
+    
     res.json(totais);
 
 })

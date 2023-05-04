@@ -53,6 +53,7 @@ const rotasPedidos = require("./routes/pedidos");
 const rotasDashboard = require("./routes/Dashboard");
 
 // Juntar ao app as rotas dos arquivos
+
 app.use(rotasClientes); // Configurar o grupo de rotas no app
 app.use(rotasPets);
 app.use(rotasServicos);
